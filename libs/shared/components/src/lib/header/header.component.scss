@@ -1,0 +1,18 @@
+@use "theme";
+
+div.flex {
+  height: 40px;
+  background: theme.$brand-bg;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+div span {
+  padding: 10px;
+}
